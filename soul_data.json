@@ -1,0 +1,19 @@
+{
+  "users": {
+    "936901111468654622": {
+      "credits": 5100,
+      "bets": []
+    }
+  },
+  "matches": {
+    "RCBvPBKS": {
+      "teams": [
+        "RCB",
+        "PBKS"
+      ],
+      "profit": 100,
+      "status": "closed",
+      "winner": "RCB"
+    }
+  }
+}

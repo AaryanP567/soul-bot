@@ -1,0 +1,170 @@
+{
+  "user_data": {
+    "936901111468654622": {
+      "reiatsu": 5084,
+      "soul_fragments": 0,
+      "zanpakuto": null,
+      "stand": null,
+      "rank": "Academy Student",
+      "level": 1,
+      "exp": 35,
+      "daily_streak": 0,
+      "last_daily": null,
+      "last_work": null,
+      "last_train": null,
+      "inventory": {},
+      "active_bets": [],
+      "total_winnings": 0,
+      "battles_won": 1,
+      "achievements": []
+    },
+    "943799457487650847": {
+      "reiatsu": 1081,
+      "soul_fragments": 0,
+      "zanpakuto": null,
+      "stand": null,
+      "rank": "Academy Student",
+      "level": 2,
+      "exp": 42,
+      "daily_streak": 2,
+      "last_daily": "2025-06-06T19:54:18.162152",
+      "last_work": "2025-06-06T19:54:20.409584",
+      "last_train": "2025-06-06T19:54:24.862383",
+      "inventory": {},
+      "active_bets": [
+        {
+          "match_id": "67",
+          "team": "team2",
+          "amount": 500,
+          "potential_return": 750,
+          "match_description": "ab vs cd"
+        },
+        {
+          "match_id": "abd",
+          "team": "team1",
+          "amount": 5000,
+          "potential_return": 10000,
+          "match_description": "nig vs gaa"
+        }
+      ],
+      "total_winnings": 0,
+      "battles_won": 1,
+      "achievements": []
+    }
+  },
+  "active_offers": {
+    "67": {
+      "id": "67",
+      "team1": "ab",
+      "team2": "cd",
+      "profit_percentage": 50,
+      "created_at": "2025-06-05T10:56:58.133264",
+      "bets": {
+        "943799457487650847": {
+          "team": "team2",
+          "amount": 500,
+          "potential_return": 750,
+          "user_name": "Ronaldo ka right tatta"
+        }
+      },
+      "total_team1_bets": 0,
+      "total_team2_bets": 500,
+      "total_bets_count": 1,
+      "status": "open"
+    },
+    "abd": {
+      "id": "abd",
+      "team1": "nig",
+      "team2": "gaa",
+      "profit_percentage": 100,
+      "created_at": "2025-06-05T14:03:34.692855",
+      "bets": {
+        "943799457487650847": {
+          "team": "team1",
+          "amount": 5000,
+          "potential_return": 10000,
+          "user_name": "Ronaldo ka right tatta"
+        }
+      },
+      "total_team1_bets": 5000,
+      "total_team2_bets": 0,
+      "total_bets_count": 1,
+      "status": "open"
+    }
+  },
+  "offer_results": {
+    "M102": {
+      "id": "M102",
+      "team1": "Mc",
+      "team2": "Bc",
+      "profit_percentage": 100,
+      "created_at": "2025-06-05T10:56:40.962274",
+      "bets": {},
+      "total_team1_bets": 0,
+      "total_team2_bets": 0,
+      "total_bets_count": 0,
+      "status": "completed",
+      "locked_at": "2025-06-05T10:56:54.979795",
+      "completed_at": "2025-06-05T10:59:08.503804",
+      "winning_team": 1
+    }
+  },
+  "shop_items": {
+    "shinigami_robes": {
+      "name": "\u2694\ufe0f Shinigami Robes",
+      "description": "Official Soul Reaper battle attire",
+      "price": 2000,
+      "currency": "reiatsu",
+      "category": "equipment",
+      "stock": 999,
+      "purchasable": true
+    },
+    "spiritual_amplifier": {
+      "name": "\ud83d\udcab Spiritual Pressure Amplifier",
+      "description": "Boost your spiritual energy output",
+      "price": 5000,
+      "currency": "reiatsu",
+      "category": "equipment",
+      "stock": 999,
+      "purchasable": true
+    },
+    "custom_title": {
+      "name": "\ud83d\udc51 Custom Title",
+      "description": "Set a personalized title in your profile",
+      "price": 3000,
+      "currency": "reiatsu",
+      "category": "cosmetic",
+      "stock": 999,
+      "purchasable": true
+    },
+    "hollow_mask": {
+      "name": "\ud83d\udc79 Hollow Mask Fragment",
+      "description": "Rare fragment with mysterious power",
+      "price": 10,
+      "currency": "soul_fragments",
+      "category": "rare",
+      "stock": 50,
+      "purchasable": true
+    },
+    "stand_arrow": {
+      "name": "\ud83c\udff9 Stand Arrow",
+      "description": "Mystical arrow that awakens Stand powers",
+      "price": 75,
+      "currency": "soul_fragments",
+      "category": "rare",
+      "stock": 25,
+      "purchasable": true
+    },
+    "hogyoku_shard": {
+      "name": "\ud83d\udc8e Hogyoku Shard",
+      "description": "Fragment of the legendary evolution orb",
+      "price": 50,
+      "currency": "soul_fragments",
+      "category": "rare",
+      "stock": 10,
+      "purchasable": true
+    }
+  },
+  "daily_missions": {},
+  "tournaments": {}
+}
