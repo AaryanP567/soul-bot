@@ -7,6 +7,29 @@ from datetime import datetime, timedelta
 import os
 import uuid
 
+import os
+from threading import Thread
+from flask import Flask
+
+# Create Flask app for Cloud Run health checks
+flask_app = Flask(__name__)
+
+@flask_app.route('/')
+def health_check():
+    return {'status': 'healthy', 'bot': str(bot.user) if bot.user else 'starting'}, 200
+
+@flask_app.route('/health')
+def health():
+    return {'status': 'ok'}, 200
+
+def run_flask():
+    port = int(os.environ.get('PORT', 8080))
+    flask_app.run(host='0.0.0.0', port=port, debug=False)
+
+# Start Flask server in background thread
+flask_thread = Thread(target=run_flask, daemon=True)
+flask_thread.start()
+
 # Bot setup with intents and disabled default help
 intents = discord.Intents.default()
 intents.message_content = True
